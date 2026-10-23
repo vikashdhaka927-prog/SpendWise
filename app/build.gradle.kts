@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    applicationId = "com.example.spendwise.test"
+    
     compileSdk = 35
 
     defaultConfig {
