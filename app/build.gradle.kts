@@ -1,3 +1,4 @@
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -5,11 +6,11 @@ plugins {
 }
 
 android {
-    
+    namespace = "com.example.spendwise"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.spendwise"
+        applicationId = "com.example.spendwise.test"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
